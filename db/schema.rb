@@ -10,9 +10,6 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101203083650) do
-
-# Could not dump table "users" because of following ArgumentError
-#   invalid date
+ActiveRecord::Schema.define(:version => 20101210091632) do
 
 end

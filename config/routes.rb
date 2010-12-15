@@ -1,4 +1,10 @@
 CmsApp::Application.routes.draw do
+  resources :gebruikers
+
+  resources :labos
+
+  resources :studentens
+
   resources :users
 
   get "demo/index"
