@@ -1,4 +1,6 @@
 CmsApp::Application.routes.draw do
+  resources :students
+
   resources :gebruikers
 
   resources :labos
